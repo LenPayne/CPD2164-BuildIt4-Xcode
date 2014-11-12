@@ -10,6 +10,7 @@
 		2EA09FD31A13A342004FE440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA09FD21A13A342004FE440 /* Foundation.framework */; };
 		2EA09FD61A13A342004FE440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA09FD51A13A342004FE440 /* main.m */; };
 		2EA09FDA1A13A342004FE440 /* CPD2164_BuildIt4_Xcode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2EA09FD91A13A342004FE440 /* CPD2164_BuildIt4_Xcode.1 */; };
+		2EA09FE21A13A363004FE440 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA09FE11A13A363004FE440 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		2EA09FD51A13A342004FE440 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2EA09FD81A13A342004FE440 /* CPD2164-BuildIt4-Xcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPD2164-BuildIt4-Xcode-Prefix.pch"; sourceTree = "<group>"; };
 		2EA09FD91A13A342004FE440 /* CPD2164_BuildIt4_Xcode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CPD2164_BuildIt4_Xcode.1; sourceTree = "<group>"; };
+		2EA09FE01A13A363004FE440 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2EA09FE11A13A363004FE440 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				2EA09FD51A13A342004FE440 /* main.m */,
+				2EA09FE01A13A363004FE440 /* Person.h */,
+				2EA09FE11A13A363004FE440 /* Person.m */,
 				2EA09FD91A13A342004FE440 /* CPD2164_BuildIt4_Xcode.1 */,
 				2EA09FD71A13A342004FE440 /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA09FE21A13A363004FE440 /* Person.m in Sources */,
 				2EA09FD61A13A342004FE440 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
